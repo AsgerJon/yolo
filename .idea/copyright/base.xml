@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="MIT Licence&#10;Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year Asger Jon Vistisen" />
+    <option name="myName" value="base" />
+  </copyright>
+</component>

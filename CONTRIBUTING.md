@@ -1,4 +1,3 @@
-"""
   # CONTRIBUTING.md
 
   ## Coding Style Guidelines
@@ -45,4 +44,3 @@
 
   Thank you for contributing to our project! By following these guidelines, we 
   can ensure a harmonious and efficient collaborative environment.
-  """

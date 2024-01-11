@@ -10,7 +10,7 @@
   ### Indentation and Formatting
 
   - **Indentation**: Use two spaces for indentation, not tabs.
-  - **Line Length**: Ensure that no line of code exceeds 75 characters, 
+  - **Line Length**: Ensure that no line of code exceeds 77 characters, 
     including whitespace.
   - **Brackets**: Place opening brackets on the same line as the statement 
     and closing brackets on a new line.

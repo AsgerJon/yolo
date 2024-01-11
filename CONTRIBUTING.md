@@ -1,69 +1,48 @@
-# Contributing to Yolo
 
-We love your input! We want to make contributing to this project as easy and
-transparent as possible, whether it's:
+  # CONTRIBUTING.md
 
-- Reporting a bug
-- Discussing the current state of the code
-- Submitting a fix
-- Proposing new features
-- Becoming a maintainer
+  ## Coding Style Guidelines
 
-## We Develop with Github
+  Welcome to our project! We value your contributions and aim to make 
+  collaboration enjoyable and productive. To maintain code consistency and 
+  readability, we ask all contributors to strictly adhere to the following 
+  style guidelines.
 
-We use GitHub to host code, to track issues and feature requests, as well as
-accept pull requests.
+  ### Indentation and Formatting
 
-## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
+  - **Indentation**: Use two spaces for indentation, not tabs.
+  - **Line Length**: Ensure that no line of code exceeds 75 characters, 
+    including whitespace.
+  - **Brackets**: Place opening brackets on the same line as the statement 
+    and closing brackets on a new line.
 
-Pull requests are the best way to propose changes to the codebase. We
-actively welcome your pull requests:
+  ### Naming Conventions
 
-1. Fork the repo and create your branch from `main`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+  - **Variables and Functions**: Use camelCase for naming variables and 
+    functions.
+  - **Classes**: Class names should start with an uppercase letter and 
+    follow camelCase.
 
-## Any contributions you make will be under the MIT Software License
+  ### Type Hinting
 
-In short, when you submit code changes, your submissions are understood to be
-under the same [MIT License](LICENSE) that covers the project. Feel free to
-contact the maintainers if that's a concern.
+  - All functions must include explicit type hints.
+  - Specify types for parameters and return values.
 
-## Report bugs using Github's [issues](https://github.com/your/project/issues)
+  \`\`\`python
+  def exampleFunction(param1: int, param2: str) -> bool:
+    # Function implementation
+  \`\`\`
 
-We use GitHub issues to track public bugs. Report a bug
-by [opening a new issue](https://github.com/your/project/issues/new); it's
-that easy!
+  ### Docstrings
 
-## Write bug reports with detail, background, and sample code
+  - **Mandatory Docstrings**: Every function and class must have a docstring. 
+    The specific format and style of docstrings will be further specified in 
+    future guidelines.
 
-**Great Bug Reports** tend to have:
+  ### Commit Messages
 
-- A quick summary and/or background
-- Steps to reproduce
-  - Be specific!
-  - Give sample code if you can.
-- What you expected would happen
-- What actually happens
-- Notes (possibly including why you think this might be happening, or stuff
-  you tried that didn't work)
+  - Write clear, concise commit messages in the imperative mood.
 
-People *love* thorough bug reports.
-
-## Use a Consistent Coding Style
-
-* 2 spaces for indentation rather than tabs
-* You can try running `python -m flake8` for style unification
-
-## License
-
-By contributing, you agree that your contributions will be licensed under its
-MIT License.
-
-## References
-
-This document was adapted from the open-source contribution guidelines
-for [Facebook's Draft](https://github.com/facebook/draft-js/blob/master/CONTRIBUTING.md)
+  Thank you for contributing to our project! By following these guidelines, we 
+  can ensure a harmonious and efficient collaborative environment.
+  

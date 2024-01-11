@@ -1,0 +1,23 @@
+[build-system]
+requires = ['setuptools>=68.2']
+build-backend = 'setuptools.build_meta'
+
+
+[project]
+name = "yolo"
+version = "0.0.1"
+authors = [
+    { name = "Asger Jon Vistisen", email = "asgerjon2@gmail.com" },
+]
+description = "Streamlined Python Testing and Execution"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AsgerJon/yolo"
+"Bug Tracker" = "https://github.com/AsgerJon/yolo"

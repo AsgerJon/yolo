@@ -172,6 +172,10 @@ class Yolo:
   def __enter__(self) -> Yolo:
     """Replaces the standard output and error streams with those of this
     instance. """
+    print("""Executing function: '%s'""" % self.__inner_function__.__name__)
+    v = sys.version_info
+    x, y, z = v.major, v.minor, v.micro
+    print("""Running Python %s.%s.%s""" % (x, y, z)
     self.__inside_context__ = True
     self.__original_stdout__ = sys.stdout
     self.__original_stderr__ = sys.stderr

@@ -17,8 +17,6 @@ Error = Optional[BaseException]
 TBType = Optional[TracebackType]
 EType = Optional[type]
 
-t
-
 
 class Yolo:
   """The Yolo provides the class central to the yolo module."""

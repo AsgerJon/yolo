@@ -28,10 +28,10 @@
   - All functions must include explicit type hints.
   - Specify types for parameters and return values.
 
-  \```python
+  ```python
   def exampleFunction(param1: int, param2: str) -> bool:
     # Function implementation
-  \```
+  ```
 
   ### Docstrings
 

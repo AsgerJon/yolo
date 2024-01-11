@@ -1,4 +1,4 @@
-
+"""
   # CONTRIBUTING.md
 
   ## Coding Style Guidelines
@@ -28,10 +28,10 @@
   - All functions must include explicit type hints.
   - Specify types for parameters and return values.
 
-  \`\`\`python
+  \```python
   def exampleFunction(param1: int, param2: str) -> bool:
     # Function implementation
-  \`\`\`
+  \```
 
   ### Docstrings
 
@@ -45,4 +45,4 @@
 
   Thank you for contributing to our project! By following these guidelines, we 
   can ensure a harmonious and efficient collaborative environment.
-  
+  """
